@@ -16,7 +16,7 @@ def know_weather():
 
     if not bool(town.strip()):
         # You could render "toen Not Found" instead like we do below
-        town = "Ikeja Town"
+        town = "Topeka Town"
 
     weather_data = know_current_weather(town)
 
