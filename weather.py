@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 
-def know_current_weather(town="Ikeja Town"):
+def know_current_weather(town="Topeka Town"):
 
     request_url = f'http://api.openweathermap.org/data/2.5/weather?appid={os.getenv("API_KEY")}&q={town}&units=imperial'
 
